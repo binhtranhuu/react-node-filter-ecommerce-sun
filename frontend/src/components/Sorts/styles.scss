@@ -1,0 +1,18 @@
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orders {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-right: 1rem;
+  }
+
+  select {
+    padding: 0.5rem;
+  }
+}
